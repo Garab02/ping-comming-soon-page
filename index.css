@@ -1,0 +1,40 @@
+
+
+body { 
+    font-family: Libre Franklin;
+    color: gray;  
+}
+
+.main {
+    text-align: center;
+  
+}
+
+#errormsg {
+    font-size: small;
+     color: red;
+}
+
+input {
+    border-radius: 10px;
+}
+button {
+    background-color: rgb(71, 71, 237);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(75, 139, 234);
+}
+
+@media only screen and (max-width:375px){
+    body {
+        padding-top: 30px;
+    }
+    .img {
+        width: 300px;
+        height: 300px;
+    }
+}
